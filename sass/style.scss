@@ -1,0 +1,183 @@
+body
+{
+}
+.head-tittle
+{
+	background-color:$medium-green;
+	height:130px;
+	padding-top:15px;
+	h1
+	{
+		color:$white;
+		font-family:Delius;
+		text-align:center;
+		font-size:45px;
+
+	}
+}
+.contenido
+{
+     background-image:url("../img/bg-creame.jpg");
+     background-size:cover;
+     background-repeat:no-repeat;
+     height:100%;
+     padding-bottom:80px;
+}
+.fondo-fixed{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.stuff
+{
+	background-color:$dark-green;
+	width:50%;
+	height:130px;
+	margin-left:25%;
+	margin-top:5%;
+	border-radius:4px;
+	-webkit-box-shadow: 2px 2px 5px 5px #D4D4D4;
+     box-shadow: 2px 2px 5px 5px #D4D4D4;
+
+     
+     .text
+     {
+     	width:70%;
+     	margin-top:25px;
+     	border-radius:4px;
+     	border:transparent;
+          font-size:30px;
+          font-family:McLaren;
+          height:50px;
+          text-align:center;
+     }
+     .button
+     {
+     	width:55px;
+     	height:55px;
+     	border-radius:100%;
+     	border-style:none;
+     	margin-left:20px;
+     	background-color:$light-green02;
+     	.icon
+     	{
+     		color:$white;
+     	}
+     }
+     .button:hover
+     {
+          background-color:$white;
+          .iconcolor
+          {color:$dark-green;}
+     }
+ }
+.list-appear
+{
+     margin-left:22%;
+     margin-top:30px;
+     
+      ul .list
+ {
+     
+     width:100%;
+     height:50px;
+     font-family:McLaren;
+     color:#4A4A4A;
+     list-style-type:circle;
+     font-size:20px;
+     border-bottom:1px solid #A3A3A3;
+     padding: 10px 10px;
+     font-size:30px;
+     -webkit-box-shadow: 0 0 5px 5px #CFCFCF;
+     box-shadow: 0 0 5px 5px #CFCFCF;
+     background-color:$white;
+     text-align:center;
+ }
+ h3
+     {
+          color:#4A4A4A;
+          font-family:Delius;
+          font-weight:bold;
+     }
+ul 
+{
+     margin-left:8%;
+     margin-top:70px;
+     background-color:$light-green01;
+     width:60%;
+     
+}
+}
+
+.bton
+{
+     background-color:$dark-green;
+     content:"done!";
+     color:white;
+     width:10%;
+     height:30px;
+     border-style:none;
+     margin-left:450px;
+     position:relative;
+     bottom:40px;
+     border-radius:4px;
+}
+
+
+.btn-eliminar
+{
+     border-style:none;
+     margin-top:50px;
+     font-family:Delius;
+     color:white;
+     font-size:18px;
+     background-color:$medium-green;
+     height:50px;
+     border-radius:4px;
+}
+.btn-eliminar:hover
+{
+     background-color:$white;
+     color:$medium-green;
+     -webkit-box-shadow: 1px 1px 5px 5px #CFCFCF;
+     box-shadow: 1px 1px 5px 5px #CFCFCF;
+     font-weight:bold;
+
+}
+
+
+.footer-section
+{
+     text-align:center;
+     background-color:$medium-green;
+     height:50px;
+     padding-top:20px;
+     color:#7D7D7D;
+}
+
+@media (max-width: 400px)
+{
+     .stuff{
+          width:120%;
+          position:relative;
+          right:80px;
+     }
+     .list-appear
+     {
+          width:100%;
+          ul 
+          {
+               width:80%;
+               margin-left:-40px;
+          }
+          width:100%;
+          .bton
+          {
+               position:relative;
+               right:270px;
+               width:20%;
+          }
+     }
+
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>TODO Application</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header class="head-tittle">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<h1>&lbrace; TO DO LIST &rbrace;</h1>
+					
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="contenido fondo-fixed">
+		<div class="container-fluid">
+			<div class="row stuff">
+				
+				<div class="col-md-12 col-xs-12">
+					<textarea id="list-text" class="text" clearContents(this);></textarea>
+					<button class="button" id="btn" onclick="mando('list')"> <span class="glyphicon glyphicon-plus icon"aria-hidden="true"></span></button>
+				</div>
+			</div>
+			<div class="row  list-appear">
+				<div class="col-md-12 col-xs-12">
+					<h3>Stuffs To Do:</h3>
+				</div>
+				<ul id="items-list">
+					
+				</ul>
+
+				<button class="btn-eliminar" onclick="removeAll()">Remove All Items</button>
+
+			</div>
+		</div>
+	</section>
+	<footer class="footer-section">
+		<div class="container-fluid">
+			<div class="col-md-12 col-xs-12">
+				<p>
+				<span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>Copyright Lichosco</p>
+			</div>
+		</div>
+	</footer>
+	<script src="js/main.js"></script>
+</body>
+</html>
